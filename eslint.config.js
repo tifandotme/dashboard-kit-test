@@ -7,7 +7,7 @@ import reactRefreshPlugin from "eslint-plugin-react-refresh"
 import tailwindPlugin from "eslint-plugin-tailwindcss"
 import globals from "globals"
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import("eslint").Linter.FlatConfig[]} */
 export default [
   {
     files: ["**/*.{ts,tsx}"],
