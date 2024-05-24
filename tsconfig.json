@@ -6,8 +6,6 @@
     "module": "Preserve",
     "skipLibCheck": true,
 
-    "checkJs": true,
-
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "isolatedModules": true,

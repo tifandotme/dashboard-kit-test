@@ -1,3 +1,4 @@
+import forms from "@tailwindcss/forms"
 import { fontFamily } from "tailwindcss/defaultTheme"
 
 /** @type {import("tailwindcss").Config} */
@@ -42,5 +43,5 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [forms],
 }

@@ -42,6 +42,8 @@ export default [
       ...tailwindPlugin.configs.recommended.rules,
       "tailwindcss/no-custom-classname": "off",
       "tailwindcss/classnames-order": "off",
+
+      ...prettierConfig.rules,
     },
     settings: {
       tailwindcss: {
@@ -49,5 +51,4 @@ export default [
       },
     },
   },
-  prettierConfig,
 ]
