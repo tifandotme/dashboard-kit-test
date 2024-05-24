@@ -21,6 +21,8 @@ Currently these are the available routes:
 
 Both routes are protected, meaning you can't access the overview page if you're not signed in, and vice versa.
 
+Dark/light mode is available by clicking the toggle button in the header.
+
 ## Prerequisites
 
 Ensure that you have **Node.js v20** or above installed on your local machine.
