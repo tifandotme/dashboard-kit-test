@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "12345678",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "guest@example.com",
+      "password": "12345678",
+      "role": "guest"
+    }
+  ],
+  "stats": [
+    {
+      "hour": 1,
+      "today": 45,
+      "yesterday": 83
+    },
+    {
+      "hour": 2,
+      "today": 53,
+      "yesterday": 51
+    },
+    {
+      "hour": 3,
+      "today": 85,
+      "yesterday": 83
+    },
+    {
+      "hour": 4,
+      "today": 55,
+      "yesterday": 5
+    },
+    {
+      "hour": 5,
+      "today": 88,
+      "yesterday": 82
+    },
+    {
+      "hour": 6,
+      "today": 61,
+      "yesterday": 41
+    },
+    {
+      "hour": 7,
+      "today": 67,
+      "yesterday": 98
+    },
+    {
+      "hour": 8,
+      "today": 2,
+      "yesterday": 57
+    },
+    {
+      "hour": 9,
+      "today": 30,
+      "yesterday": 14
+    },
+    {
+      "hour": 10,
+      "today": 4,
+      "yesterday": 64
+    },
+    {
+      "hour": 11,
+      "today": 86,
+      "yesterday": 10
+    },
+    {
+      "hour": 12,
+      "today": 69,
+      "yesterday": 85
+    },
+    {
+      "hour": 13,
+      "today": 49,
+      "yesterday": 44
+    },
+    {
+      "hour": 14,
+      "today": 7,
+      "yesterday": 12
+    },
+    {
+      "hour": 15,
+      "today": 88,
+      "yesterday": 84
+    },
+    {
+      "hour": 16,
+      "today": 5,
+      "yesterday": 97
+    },
+    {
+      "hour": 17,
+      "today": 45,
+      "yesterday": 74
+    },
+    {
+      "hour": 18,
+      "today": 53,
+      "yesterday": 26
+    },
+    {
+      "hour": 19,
+      "today": 99,
+      "yesterday": 64
+    },
+    {
+      "hour": 20
+    },
+    {
+      "hour": 21
+    },
+    {
+      "hour": 22
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "isDone": false,
+      "text": "Accept terms and conditions",
+      "label": "urgent"
+    },
+    {
+      "id": 2,
+      "isDone": false,
+      "text": "Awaiting developer fix",
+      "label": "new"
+    },
+    {
+      "id": 3,
+      "isDone": false,
+      "text": "Pending",
+      "label": null
+    }
+  ],
+  "statuses": {
+    "unresolved": 60,
+    "overdue": 16,
+    "open": 43,
+    "onHold": 64
+  }
+}
