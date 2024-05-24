@@ -51,11 +51,8 @@ export function SignInPage() {
     }
   }
 
-  const user = useStore((state) => state.user)
-  console.log(user)
-
   return (
-    <div className="min-h-screen overflow-auto bg-black/80">
+    <div className="min-h-screen overflow-auto bg-black/80 dark:bg-white/10">
       <main className="w-full bg-background px-8 py-10 max-xs:min-h-screen max-xs:!pt-20 xs:mx-auto xs:my-32 xs:w-96 xs:rounded-lg">
         <header className="mb-10 flex flex-col gap-8">
           <div className="w-full space-y-3 text-center">
@@ -65,7 +62,7 @@ export function SignInPage() {
             </h1>
           </div>
           <div className="w-full space-y-3 text-center">
-            <h2 className="text-balance text-2xl font-bold tracking-tight text-gray-800">
+            <h2 className="text-balance text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-200">
               Log In to Dashboard Kit
             </h2>
             <p className="text-sm leading-tight tracking-tight text-gray-400">
